@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Search | DONAC</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages/search.css">
+
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#557573">
+
+
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- HEADER -->
+        <header class="top-bar">
+
+            <a href="index.html" class="logo">
+                DONAC
+            </a>
+
+        </header>
+
+
+        <!-- MAIN -->
+        <main class="main-content">
+
+            <section class="section">
+
+                <div class="section-header">
+
+                    <h1>
+                        Search
+                    </h1>
+
+                </div>
+
+
+                <!-- SEARCH INPUT -->
+                <div class="search-box">
+
+                    <span class="search-icon">
+                        ⌕
+                    </span>
+
+                    <input
+                        type="text"
+                        id="search-input"
+                        placeholder="Search cocktails..."
+                        autocomplete="off"
+                    >
+
+                </div>
+
+            </section>
+
+
+            <!-- FILTERS -->
+            <section class="section">
+
+                <div
+                    class="filter-list"
+                    id="filter-list"
+                >
+                </div>
+
+            </section>
+
+
+            <!-- RESULTS -->
+            <section class="section">
+
+                <div class="section-header">
+
+                    <h2>
+                        Cocktails
+                    </h2>
+
+                    <span
+                        class="results-count"
+                        id="results-count"
+                    >
+                        0 results
+                    </span>
+
+                </div>
+
+
+                <div
+                    class="cocktail-grid"
+                    id="search-results"
+                >
+                </div>
+
+
+                <div
+                    class="search-empty"
+                    id="search-empty"
+                >
+
+                    <div class="search-empty-icon">
+                        ⌕
+                    </div>
+
+                    <h3>
+                        No cocktails found
+                    </h3>
+
+                    <p>
+                        Try another search
+                        or category.
+                    </p>
+
+                </div>
+
+            </section>
+
+        </main>
+
+
+        <!-- BOTTOM NAVIGATION -->
+        <nav class="bottom-nav">
+
+            <a href="index.html" class="nav-item">
+
+                <span class="nav-icon">
+                    ⌂
+                </span>
+
+                <span>
+                    Home
+                </span>
+
+            </a>
+
+
+            <a
+                href="search.html"
+                class="nav-item active"
+            >
+
+                <span class="nav-icon">
+                    ⌕
+                </span>
+
+                <span>
+                    Search
+                </span>
+
+            </a>
+
+
+            <a href="my-bar.html" class="nav-item">
+
+                <span class="nav-icon">
+                    ♡
+                </span>
+
+                <span>
+                    My Bar
+                </span>
+
+            </a>
+
+        </nav>
+
+    </div>
+
+
+    <script src="js/favorites.js"></script>
+    <script src="js/search.js"></script>
+    <script src="js/pwa.js"></script>
+
+</body>
+
+</html>

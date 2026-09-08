@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>My Bar | DONAC</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages/my-bar.css">
+
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#557573">
+
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- HEADER -->
+        <header class="top-bar">
+
+            <a href="index.html" class="logo">
+                DONAC
+            </a>
+
+        </header>
+
+
+        <!-- MAIN -->
+        <main class="main-content">
+
+            <section class="section">
+
+                <div class="section-header">
+
+                    <h1>
+                        My Bar
+                    </h1>
+
+                </div>
+
+
+                <!-- TABS -->
+                <div class="my-bar-tabs">
+
+                    <button
+                        class="my-bar-tab active"
+                        data-tab="favorites"
+                    >
+                        Favorites
+                    </button>
+
+                    <button
+                        class="my-bar-tab"
+                        data-tab="my-drinks"
+                    >
+                        My Drinks
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- FAVORITES -->
+            <section
+                class="my-bar-content active"
+                id="favorites-content"
+            >
+
+                <div class="section-header">
+
+                    <h2>
+                        Favorites
+                    </h2>
+
+                </div>
+
+
+                <div
+                    class="cocktail-grid"
+                    id="favorites-grid"
+                >
+                </div>
+
+
+                <div
+                    class="empty-state"
+                    id="favorites-empty"
+                >
+                    <div class="empty-icon">
+                        ♡
+                    </div>
+
+                    <h3>
+                        No favorites yet
+                    </h3>
+
+                    <p>
+                        Save cocktails you like
+                        and they will appear here.
+                    </p>
+
+                    <a
+                        href="index.html"
+                        class="empty-button"
+                    >
+                        Explore cocktails
+                    </a>
+
+                </div>
+
+            </section>
+
+
+            <!-- MY DRINKS -->
+            <section
+    class="my-bar-content"
+    id="my-drinks-content"
+>
+
+    <div class="section-header">
+
+        <div>
+
+            <h2>
+                My Ingredients
+            </h2>
+
+            <p
+                class="ingredient-count"
+                id="ingredient-count"
+            >
+                0 selected
+            </p>
+
+        </div>
+
+
+        <button
+            class="clear-button"
+            onclick="clearIngredients()"
+        >
+            Clear
+        </button>
+
+    </div>
+
+
+    <p class="ingredients-help">
+        Select the ingredients
+        you currently have at home.
+    </p>
+
+
+    <div
+        class="ingredients-list"
+        id="ingredients-list"
+    >
+    </div>
+
+    <div class="make-results">
+
+    <div class="section-header results-header">
+
+        <h2>
+            What can I make?
+        </h2>
+
+    </div>
+
+
+    <div
+        class="result-group"
+        id="can-make-group"
+    >
+
+        <h3 class="result-title">
+            Can make
+        </h3>
+
+        <div
+            class="cocktail-grid"
+            id="can-make-grid"
+        >
+        </div>
+
+        <p
+            class="result-empty"
+            id="can-make-empty"
+        >
+            Select more ingredients
+            to unlock cocktails.
+        </p>
+
+    </div>
+
+
+    <div
+        class="result-group"
+        id="almost-make-group"
+    >
+
+        <h3 class="result-title">
+            Missing 1 ingredient
+        </h3>
+
+        <div
+            class="cocktail-grid"
+            id="almost-make-grid"
+        >
+        </div>
+
+    </div>
+
+</div>
+
+    <!-- WHAT CAN I MAKE -->
+<section class="can-make-section">
+
+    <div class="section-header">
+
+        <div>
+            <h2>
+                What can I make?
+            </h2>
+
+            <p
+                class="can-make-count"
+                id="can-make-count"
+            >
+                0 cocktails
+            </p>
+        </div>
+
+    </div>
+
+
+    <div
+        class="cocktail-grid"
+        id="can-make-grid"
+    >
+    </div>
+
+
+    <div
+        class="empty-state"
+        id="can-make-empty"
+    >
+
+        <div class="empty-icon">
+            🍸
+        </div>
+
+        <h3>
+            Nothing yet
+        </h3>
+
+        <p>
+            Select more ingredients
+            to discover cocktails
+            you can make.
+        </p>
+
+    </div>
+
+</section>
+
+</section>
+
+        </main>
+
+
+        <!-- BOTTOM NAVIGATION -->
+        <nav class="bottom-nav">
+
+            <a href="index.html" class="nav-item">
+
+                <span class="nav-icon">
+                    ⌂
+                </span>
+
+                <span>
+                    Home
+                </span>
+
+            </a>
+
+
+            <a href="search.html" class="nav-item">
+
+                <span class="nav-icon">
+                    ⌕
+                </span>
+
+                <span>
+                    Search
+                </span>
+
+            </a>
+
+
+            <a
+                href="my-bar.html"
+                class="nav-item active"
+            >
+
+                <span class="nav-icon">
+                    ♥
+                </span>
+
+                <span>
+                    My Bar
+                </span>
+
+            </a>
+
+        </nav>
+
+    </div>
+
+
+    <script src="js/favorites.js"></script>
+    <script src="js/my-bar.js"></script>
+    <script src="js/pwa.js"></script>
+
+</body>
+
+</html>

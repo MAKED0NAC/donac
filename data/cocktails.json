@@ -1,0 +1,477 @@
+[
+    {
+        "id": "mojito",
+        "name": "Mojito",
+        "category": "rum",
+        "difficulty": "Easy",
+        "time": 5,
+        "glass": "Highball glass",
+        "description": "A refreshing Cuban cocktail with white rum, lime, mint and soda water.",
+        "garnish": "Mint sprig and lime wedge",
+        "tags": [
+            "refreshing",
+            "citrus",
+            "summer"
+        ],
+        "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a",
+        "featured": true,
+        "popular": true,
+        "ingredients": [
+            {
+                "name": "White Rum",
+                "amount": "60 ml"
+            },
+            {
+                "name": "Lime Juice",
+                "amount": "30 ml"
+            },
+            {
+                "name": "Sugar",
+                "amount": "2 tsp"
+            },
+            {
+                "name": "Mint Leaves",
+                "amount": "10"
+            },
+            {
+                "name": "Soda Water",
+                "amount": "Top up"
+            }
+        ],
+        "method": [
+            "Add mint leaves and sugar to the glass.",
+            "Add lime juice and gently muddle.",
+            "Pour in the white rum.",
+            "Fill the glass with ice.",
+            "Top with soda water.",
+            "Stir gently and garnish with mint."
+        ]
+    },
+    {
+        "id": "aperol-spritz",
+        "name": "Aperol Spritz",
+        "category": "aperol",
+        "difficulty": "Easy",
+        "time": 5,
+        "glass": "Wine glass",
+        "description": "A light and bittersweet Italian aperitif with Aperol, Prosecco and soda.",
+        "garnish": "Orange slice",
+        "tags": [
+            "bitter",
+            "sparkling",
+            "summer"
+        ],
+        "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307",
+        "featured": false,
+        "popular": true,
+        "ingredients": [
+            {
+                "name": "Aperol",
+                "amount": "60 ml"
+            },
+            {
+                "name": "Prosecco",
+                "amount": "90 ml"
+            },
+            {
+                "name": "Soda Water",
+                "amount": "30 ml"
+            },
+            {
+                "name": "Orange",
+                "amount": "1 slice"
+            }
+        ],
+        "method": [
+            "Fill a wine glass with ice.",
+            "Add Aperol.",
+            "Add Prosecco.",
+            "Top with soda water.",
+            "Garnish with an orange slice."
+        ]
+    },
+    {
+        "id": "espresso-martini",
+        "name": "Espresso Martini",
+        "category": "vodka",
+        "difficulty": "Easy",
+        "time": 10,
+        "glass": "Martini glass",
+        "description": "A rich coffee cocktail combining vodka, coffee liqueur and fresh espresso.",
+        "garnish": "Coffee beans",
+        "tags": [
+            "coffee",
+            "rich",
+            "night"
+        ],
+        "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd",
+        "featured": false,
+        "popular": true,
+        "ingredients": [
+            {
+                "name": "Vodka",
+                "amount": "50 ml"
+            },
+            {
+                "name": "Coffee Liqueur",
+                "amount": "25 ml"
+            },
+            {
+                "name": "Espresso",
+                "amount": "30 ml"
+            }
+        ],
+        "method": [
+            "Add all ingredients to a shaker with ice.",
+            "Shake hard until chilled.",
+            "Strain into a chilled Martini glass.",
+            "Garnish with coffee beans."
+        ]
+    },
+    {
+        "id": "vodka-martini",
+        "name": "Vodka Martini",
+        "category": "vodka",
+        "difficulty": "Easy",
+        "time": 5,
+        "glass": "Martini glass",
+        "description": "A clean and elegant cocktail made with vodka and dry vermouth.",
+        "garnish": "Olive or lemon twist",
+        "tags": [
+            "strong",
+            "classic",
+            "dry"
+        ],
+        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e",
+        "featured": false,
+        "popular": false,
+        "ingredients": [
+            {
+                "name": "Vodka",
+                "amount": "60 ml"
+            },
+            {
+                "name": "Dry Vermouth",
+                "amount": "10 ml"
+            }
+        ],
+        "method": [
+            "Add vodka and vermouth to a mixing glass with ice.",
+            "Stir until chilled.",
+            "Strain into a Martini glass.",
+            "Garnish with an olive or lemon twist."
+        ]
+    },
+    {
+        "id": "white-russian",
+        "name": "White Russian",
+        "category": "vodka",
+        "difficulty": "Easy",
+        "time": 5,
+        "glass": "Old Fashioned glass",
+        "description": "A creamy vodka cocktail with coffee liqueur and cream.",
+        "garnish": "None",
+        "tags": [
+            "creamy",
+            "coffee",
+            "dessert"
+        ],
+        "image": "https://images.unsplash.com/photo-1536935338788-846bb9981813",
+        "featured": false,
+        "popular": false,
+        "ingredients": [
+            {
+                "name": "Vodka",
+                "amount": "50 ml"
+            },
+            {
+                "name": "Coffee Liqueur",
+                "amount": "25 ml"
+            },
+            {
+                "name": "Cream",
+                "amount": "25 ml"
+            }
+        ],
+        "method": [
+            "Fill the glass with ice.",
+            "Add vodka and coffee liqueur.",
+            "Slowly add the cream.",
+            "Stir gently before drinking."
+        ]
+    },
+    {
+        "id": "margarita",
+        "name": "Margarita",
+        "category": "tequila",
+        "difficulty": "Easy",
+        "time": 5,
+        "glass": "Margarita glass",
+        "description": "A bright tequila cocktail with lime juice and orange liqueur.",
+        "garnish": "Lime wheel",
+        "tags": [
+            "citrus",
+            "classic",
+            "refreshing"
+        ],
+        "image": "https://images.unsplash.com/photo-1556855810-ac404aa91e85",
+        "featured": false,
+        "popular": true,
+        "ingredients": [
+            {
+                "name": "Tequila",
+                "amount": "50 ml"
+            },
+            {
+                "name": "Triple Sec",
+                "amount": "25 ml"
+            },
+            {
+                "name": "Lime Juice",
+                "amount": "25 ml"
+            }
+        ],
+        "method": [
+            "Add all ingredients to a shaker with ice.",
+            "Shake until chilled.",
+            "Strain into a Margarita glass.",
+            "Garnish with lime."
+        ]
+    },
+    {
+        "id": "gin-tonic",
+        "name": "Gin & Tonic",
+        "category": "gin",
+        "difficulty": "Easy",
+        "time": 3,
+        "glass": "Highball glass",
+        "description": "A crisp and simple highball made with gin and tonic water.",
+        "garnish": "Lime wedge",
+        "tags": [
+            "refreshing",
+            "simple",
+            "classic"
+        ],
+        "image": "https://images.unsplash.com/photo-1527761939622-91190946328b",
+        "featured": false,
+        "popular": true,
+        "ingredients": [
+            {
+                "name": "Gin",
+                "amount": "50 ml"
+            },
+            {
+                "name": "Tonic Water",
+                "amount": "Top up"
+            },
+            {
+                "name": "Lime",
+                "amount": "1 wedge"
+            }
+        ],
+        "method": [
+            "Fill a highball glass with ice.",
+            "Add gin.",
+            "Top with tonic water.",
+            "Gently stir.",
+            "Garnish with lime."
+        ]
+    },
+    {
+        "id": "negroni",
+        "name": "Negroni",
+        "category": "gin",
+        "difficulty": "Easy",
+        "time": 5,
+        "glass": "Old Fashioned glass",
+        "description": "A bold bittersweet Italian classic made with gin, Campari and sweet vermouth.",
+        "garnish": "Orange peel",
+        "tags": [
+            "bitter",
+            "strong",
+            "classic"
+        ],
+        "image": "https://images.unsplash.com/photo-1597290282695-edc43d0e7129",
+        "featured": false,
+        "popular": true,
+        "ingredients": [
+            {
+                "name": "Gin",
+                "amount": "30 ml"
+            },
+            {
+                "name": "Campari",
+                "amount": "30 ml"
+            },
+            {
+                "name": "Sweet Vermouth",
+                "amount": "30 ml"
+            }
+        ],
+        "method": [
+            "Add all ingredients to a mixing glass with ice.",
+            "Stir until chilled.",
+            "Strain over fresh ice.",
+            "Garnish with orange peel."
+        ]
+    },
+    {
+        "id": "moscow-mule",
+        "name": "Moscow Mule",
+        "category": "vodka",
+        "difficulty": "Easy",
+        "time": 5,
+        "glass": "Copper mug",
+        "description": "A spicy and refreshing vodka cocktail with ginger beer and lime.",
+        "garnish": "Lime wedge",
+        "tags": [
+            "refreshing",
+            "ginger",
+            "citrus"
+        ],
+        "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87",
+        "featured": false,
+        "popular": true,
+        "ingredients": [
+            {
+                "name": "Vodka",
+                "amount": "50 ml"
+            },
+            {
+                "name": "Ginger Beer",
+                "amount": "120 ml"
+            },
+            {
+                "name": "Lime Juice",
+                "amount": "15 ml"
+            }
+        ],
+        "method": [
+            "Fill a copper mug with ice.",
+            "Add vodka and lime juice.",
+            "Top with ginger beer.",
+            "Stir gently.",
+            "Garnish with lime."
+        ]
+    },
+    {
+        "id": "daiquiri",
+        "name": "Daiquiri",
+        "category": "rum",
+        "difficulty": "Easy",
+        "time": 5,
+        "glass": "Coupe glass",
+        "description": "A clean rum sour made with white rum, fresh lime juice and sugar.",
+        "garnish": "Lime wheel",
+        "tags": [
+            "citrus",
+            "classic",
+            "sour"
+        ],
+        "image": "https://images.unsplash.com/photo-1563223771-375783ee91ad",
+        "featured": false,
+        "popular": false,
+        "ingredients": [
+            {
+                "name": "White Rum",
+                "amount": "60 ml"
+            },
+            {
+                "name": "Lime Juice",
+                "amount": "30 ml"
+            },
+            {
+                "name": "Sugar Syrup",
+                "amount": "15 ml"
+            }
+        ],
+        "method": [
+            "Add all ingredients to a shaker with ice.",
+            "Shake until chilled.",
+            "Double strain into a chilled coupe glass.",
+            "Garnish with lime."
+        ]
+    },
+    {
+        "id": "tom-collins",
+        "name": "Tom Collins",
+        "category": "gin",
+        "difficulty": "Easy",
+        "time": 5,
+        "glass": "Collins glass",
+        "description": "A refreshing gin cocktail with lemon, sugar and soda water.",
+        "garnish": "Lemon slice",
+        "tags": [
+            "refreshing",
+            "citrus",
+            "long drink"
+        ],
+        "image": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34",
+        "featured": false,
+        "popular": false,
+        "ingredients": [
+            {
+                "name": "Gin",
+                "amount": "50 ml"
+            },
+            {
+                "name": "Lemon Juice",
+                "amount": "25 ml"
+            },
+            {
+                "name": "Sugar Syrup",
+                "amount": "15 ml"
+            },
+            {
+                "name": "Soda Water",
+                "amount": "Top up"
+            }
+        ],
+        "method": [
+            "Add gin, lemon juice and sugar syrup to a shaker with ice.",
+            "Shake briefly.",
+            "Strain into an ice-filled Collins glass.",
+            "Top with soda water.",
+            "Garnish with lemon."
+        ]
+    },
+    {
+        "id": "tequila-sunrise",
+        "name": "Tequila Sunrise",
+        "category": "tequila",
+        "difficulty": "Easy",
+        "time": 5,
+        "glass": "Highball glass",
+        "description": "A fruity tequila cocktail with orange juice and grenadine.",
+        "garnish": "Orange slice",
+        "tags": [
+            "fruity",
+            "sweet",
+            "colorful"
+        ],
+        "image": "https://images.unsplash.com/photo-1541546339599-ecdbfcf77378",
+        "featured": false,
+        "popular": false,
+        "ingredients": [
+            {
+                "name": "Tequila",
+                "amount": "50 ml"
+            },
+            {
+                "name": "Orange Juice",
+                "amount": "100 ml"
+            },
+            {
+                "name": "Grenadine",
+                "amount": "15 ml"
+            }
+        ],
+        "method": [
+            "Fill a highball glass with ice.",
+            "Add tequila and orange juice.",
+            "Slowly pour grenadine into the glass.",
+            "Do not stir heavily so the sunrise effect remains.",
+            "Garnish with orange."
+        ]
+    }
+]

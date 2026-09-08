@@ -1,0 +1,391 @@
+/* =========================
+   MY BAR TABS
+========================= */
+
+.my-bar-tabs {
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    padding: 4px;
+
+    border-radius: 16px;
+
+    background:
+        rgba(85, 117, 115, 0.12);
+}
+
+
+.my-bar-tab {
+    padding: 12px 10px;
+
+    border: none;
+
+    border-radius: 12px;
+
+    background: transparent;
+
+    color: var(--color-primary);
+
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+
+.my-bar-tab.active {
+    background:
+        var(--color-primary);
+
+    color: white;
+}
+
+
+/* =========================
+   CONTENT
+========================= */
+
+.my-bar-content {
+    display: none;
+
+    margin-bottom: 30px;
+}
+
+
+.my-bar-content.active {
+    display: block;
+}
+
+
+/* =========================
+   EMPTY STATE
+========================= */
+
+.empty-state {
+    display: none;
+
+    padding: 50px 20px;
+
+    text-align: center;
+}
+
+
+.empty-state.active {
+    display: block;
+}
+
+
+.empty-icon {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 72px;
+    height: 72px;
+
+    margin: 0 auto 18px;
+
+    border-radius: 50%;
+
+    background:
+        rgba(85, 117, 115, 0.12);
+
+    color:
+        var(--color-primary);
+
+    font-size: 2.4rem;
+}
+
+
+.empty-state h3 {
+    margin:
+        0 0 8px;
+
+    font-size: 1.3rem;
+}
+
+
+.empty-state p {
+    max-width: 260px;
+
+    margin:
+        0 auto 20px;
+
+    color:
+        rgba(41, 66, 64, 0.7);
+
+    line-height: 1.5;
+}
+
+
+.empty-button {
+    display: inline-block;
+
+    padding:
+        12px 18px;
+
+    border-radius: 12px;
+
+    background:
+        var(--color-primary);
+
+    color: white;
+
+    font-weight: 700;
+}
+
+
+/* =========================
+   MY DRINKS
+========================= */
+
+.coming-soon {
+    padding: 45px 20px;
+
+    text-align: center;
+}
+
+
+.coming-soon h2 {
+    margin-top: 0;
+}
+
+
+.coming-soon p {
+    max-width: 280px;
+
+    margin:
+        0 auto;
+
+    line-height: 1.6;
+
+    color:
+        rgba(41, 66, 64, 0.7);
+}
+
+
+/* =========================
+   DESKTOP PREVIEW
+========================= */
+
+@media (min-width: 700px) {
+
+    .app {
+        max-width: 430px;
+
+        margin:
+            30px auto;
+
+        min-height:
+            calc(100vh - 60px);
+
+        border-radius: 28px;
+
+        overflow: hidden;
+
+        box-shadow:
+            0 20px 60px
+            rgba(0, 0, 0, 0.15);
+    }
+
+
+    .bottom-nav {
+        max-width: 430px;
+
+        left: 50%;
+
+        transform:
+            translateX(-50%);
+
+        bottom: 30px;
+
+        border-radius:
+            0 0 28px 28px;
+    }
+
+}
+
+/* =========================
+   MY INGREDIENTS
+========================= */
+
+.ingredients-help {
+    margin:
+        -4px 0 18px;
+
+    color:
+        rgba(41, 66, 64, 0.7);
+
+    line-height: 1.5;
+}
+
+
+.ingredients-list {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+
+.ingredient-chip {
+    padding:
+        10px 14px;
+
+    border:
+        1px solid
+        rgba(85, 117, 115, 0.25);
+
+    border-radius: 999px;
+
+    background: white;
+
+    color:
+        var(--color-primary);
+
+    font-size: 0.9rem;
+
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+
+.ingredient-chip.selected {
+    border-color:
+        var(--color-primary);
+
+    background:
+        var(--color-primary);
+
+    color: white;
+}
+
+
+.ingredient-count {
+    margin:
+        5px 0 0;
+
+    color:
+        rgba(41, 66, 64, 0.6);
+
+    font-size: 0.85rem;
+}
+
+
+.clear-button {
+    padding:
+        8px 12px;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background:
+        rgba(85, 117, 115, 0.12);
+
+    color:
+        var(--color-primary);
+
+    font-weight: 700;
+
+    cursor: pointer;
+}
+
+/* =========================
+   WHAT CAN I MAKE
+========================= */
+
+.can-make-section {
+    margin-top: 36px;
+
+    padding-top: 28px;
+
+    border-top:
+        1px solid
+        rgba(41, 66, 64, 0.12);
+}
+
+
+.can-make-count {
+    margin:
+        5px 0 0;
+
+    color:
+        rgba(41, 66, 64, 0.6);
+
+    font-size: 0.85rem;
+}
+
+/* =========================
+   WHAT CAN I MAKE
+========================= */
+
+.make-results {
+    margin-top: 36px;
+}
+
+
+.results-header {
+    margin-bottom: 18px;
+}
+
+
+.result-group {
+    margin-bottom: 30px;
+}
+
+
+.result-title {
+    margin:
+        0 0 12px;
+
+    color:
+        var(--color-primary);
+
+    font-size: 1rem;
+}
+
+
+.result-empty {
+    margin: 0;
+
+    padding:
+        22px 16px;
+
+    border-radius: 14px;
+
+    background:
+        rgba(85, 117, 115, 0.08);
+
+    color:
+        rgba(41, 66, 64, 0.65);
+
+    text-align: center;
+
+    line-height: 1.5;
+}
+
+
+.result-card {
+    min-height: 210px;
+}
+
+
+.can-make-label {
+    color:
+        #ffffff;
+
+    font-weight: 700;
+}
+
+
+.missing-label {
+    color:
+        #ffffff;
+
+    font-weight: 600;
+}

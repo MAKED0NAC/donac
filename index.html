@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>DONAC</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages/home.css">
+
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#557573">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- HEADER -->
+        <header class="top-bar">
+
+            <a href="index.html" class="logo">
+                DONAC
+            </a>
+
+        </header>
+
+
+        <!-- MAIN CONTENT -->
+        <main class="main-content">
+
+
+            <!-- COCKTAIL OF THE DAY -->
+            <section class="section">
+
+                <div class="section-header">
+
+                    <h1>
+                        Cocktail of the Day
+                    </h1>
+
+                </div>
+
+                <div id="featured-cocktail"></div>
+
+            </section>
+
+
+            <!-- POPULAR -->
+            <section class="section">
+
+                <div class="section-header">
+
+                    <h2>
+                        Popular
+                    </h2>
+
+                    <a href="search.html">
+                        See all
+                    </a>
+
+                </div>
+
+
+                <div
+                    class="cocktail-grid"
+                    id="popular-cocktails"
+                >
+                </div>
+
+            </section>
+
+
+            <!-- VODKA BASED -->
+            <section class="section">
+
+                <div class="section-header">
+
+                    <h2>
+                        Vodka based
+                    </h2>
+
+                </div>
+
+
+                <div
+                    class="cocktail-grid"
+                    id="vodka-cocktails"
+                >
+                </div>
+
+            </section>
+
+
+        </main>
+
+
+        <!-- BOTTOM NAVIGATION -->
+        <nav class="bottom-nav">
+
+
+            <!-- HOME -->
+            <a
+                href="index.html"
+                class="nav-item active"
+            >
+
+                <span class="nav-icon">
+                    ⌂
+                </span>
+
+                <span>
+                    Home
+                </span>
+
+            </a>
+
+
+            <!-- SEARCH -->
+            <a
+                href="search.html"
+                class="nav-item"
+            >
+
+                <span class="nav-icon">
+                    ⌕
+                </span>
+
+                <span>
+                    Search
+                </span>
+
+            </a>
+
+
+            <!-- MY BAR -->
+            <a
+                href="my-bar.html"
+                class="nav-item"
+            >
+
+                <span class="nav-icon">
+                    ♡
+                </span>
+
+                <span>
+                    My Bar
+                </span>
+
+            </a>
+
+
+        </nav>
+
+    </div>
+
+
+    <!-- JAVASCRIPT -->
+<script src="js/favorites.js"></script>
+<script src="js/app.js"></script>
+<script src="js/pwa.js"></script>
+
+</body>
+
+</html>

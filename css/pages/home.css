@@ -1,0 +1,32 @@
+@media (min-width: 700px) {
+
+    .app {
+        max-width: 430px;
+
+        margin: 30px auto;
+
+        min-height: calc(100vh - 60px);
+
+        border-radius: 28px;
+
+        overflow: hidden;
+
+        box-shadow:
+            0 20px 60px
+            rgba(0, 0, 0, 0.15);
+    }
+
+    .bottom-nav {
+        max-width: 430px;
+
+        left: 50%;
+
+        transform: translateX(-50%);
+
+        bottom: 30px;
+
+        border-radius:
+            0 0 28px 28px;
+    }
+
+}
