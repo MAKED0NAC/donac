@@ -1,4 +1,4 @@
-const CACHE_NAME = "donac-cache-v3";
+const CACHE_NAME = "donac-cache-v4";
 
 const APP_FILES = [
     "./",

@@ -8,6 +8,64 @@ let allCocktails = [];
 
 
 // ========================================
+// INGREDIENT NORMALIZATION
+// ========================================
+
+function normalizeIngredientName(name) {
+
+    const normalized =
+        name
+            .trim()
+            .toLowerCase();
+
+
+    const aliases = {
+
+        // JUICES
+        "lime juice": "lime juice",
+        "lemon juice": "lemon juice",
+        "orange juice": "orange juice",
+        "pineapple juice": "pineapple juice",
+        "cranberry juice": "cranberry juice",
+        "grapefruit juice": "grapefruit juice",
+
+        // SYRUPS
+        "sugar syrup": "simple syrup",
+        "simple syrup": "simple syrup",
+
+        // SODA
+        "soda water": "soda water",
+        "club soda": "soda water",
+        "carbonated water": "soda water",
+
+        // RUM
+        "light rum": "white rum",
+        "white rum": "white rum",
+
+        // VERMOUTH
+        "sweet vermouth": "sweet vermouth",
+        "dry vermouth": "dry vermouth",
+
+        // LIQUEURS
+        "maraschino liqueur": "maraschino liqueur",
+
+        // BITTERS
+        "angostura bitters": "angostura bitters",
+
+        // OTHER
+        "egg white": "egg white",
+        "ginger beer": "ginger beer"
+
+    };
+
+
+    return aliases[normalized] || normalized;
+
+}
+
+
+
+// ========================================
 // 1. LOAD MY BAR
 // ========================================
 
@@ -289,9 +347,40 @@ function getMyIngredients() {
     }
 
 
-    return JSON.parse(
-        savedIngredients
-    );
+    try {
+
+        const ingredients =
+            JSON.parse(
+                savedIngredients
+            );
+
+
+        if (!Array.isArray(ingredients)) {
+
+            return [];
+
+        }
+
+
+        return [
+            ...new Set(
+                ingredients.map(
+                    normalizeIngredientName
+                )
+            )
+        ];
+
+    }
+    catch (error) {
+
+        console.error(
+            "Could not read saved ingredients:",
+            error
+        );
+
+        return [];
+
+    }
 
 }
 
@@ -305,10 +394,20 @@ function saveMyIngredients(
     ingredients
 ) {
 
+    const normalizedIngredients =
+        [
+            ...new Set(
+                ingredients.map(
+                    normalizeIngredientName
+                )
+            )
+        ];
+
+
     localStorage.setItem(
         "donacIngredients",
         JSON.stringify(
-            ingredients
+            normalizedIngredients
         )
     );
 
@@ -330,20 +429,42 @@ function displayIngredientOptions(
         );
 
 
-    const ingredientNames =
-        cocktails.flatMap(
-            cocktail =>
-                cocktail.ingredients.map(
-                    ingredient =>
+    const ingredientMap =
+        new Map();
+
+
+    cocktails.forEach(cocktail => {
+
+        cocktail.ingredients.forEach(
+            ingredient => {
+
+                const normalizedName =
+                    normalizeIngredientName(
                         ingredient.name
-                )
+                    );
+
+
+                if (
+                    !ingredientMap.has(
+                        normalizedName
+                    )
+                ) {
+
+                    ingredientMap.set(
+                        normalizedName,
+                        ingredient.name
+                    );
+
+                }
+
+            }
         );
+
+    });
 
 
     const uniqueIngredients =
-        [...new Set(
-            ingredientNames
-        )]
+        [...ingredientMap.keys()]
             .sort();
 
 
@@ -361,6 +482,12 @@ function displayIngredientOptions(
                     );
 
 
+                const displayName =
+                    ingredientMap.get(
+                        ingredient
+                    );
+
+
                 return `
 
                     <button
@@ -374,7 +501,7 @@ function displayIngredientOptions(
                             toggleIngredient('${ingredient}')
                         "
                     >
-                        ${ingredient}
+                        ${displayName}
                     </button>
 
                 `;
@@ -397,27 +524,34 @@ function toggleIngredient(
     ingredient
 ) {
 
+    const normalizedIngredient =
+        normalizeIngredientName(
+            ingredient
+        );
+
+
     let ingredients =
         getMyIngredients();
 
 
     if (
         ingredients.includes(
-            ingredient
+            normalizedIngredient
         )
     ) {
 
         ingredients =
             ingredients.filter(
                 item =>
-                    item !== ingredient
+                    item !==
+                    normalizedIngredient
             );
 
     }
     else {
 
         ingredients.push(
-            ingredient
+            normalizedIngredient
         );
 
     }
@@ -459,7 +593,9 @@ function updateIngredientButtons() {
     buttons.forEach(button => {
 
         const ingredient =
-            button.dataset.ingredient;
+            normalizeIngredientName(
+                button.dataset.ingredient
+            );
 
 
         if (
@@ -518,6 +654,7 @@ function clearIngredients() {
 
     saveMyIngredients([]);
 
+
     updateIngredientButtons();
 
     updateIngredientCount();
@@ -570,16 +707,42 @@ function displayMakeResults(
 
             const cocktailIngredients =
                 cocktail.ingredients.map(
-                    ingredient =>
-                        ingredient.name
+                    ingredient => ({
+                        original:
+                            ingredient.name,
+
+                        normalized:
+                            normalizeIngredientName(
+                                ingredient.name
+                            )
+                    })
+                );
+
+
+            // Remove duplicate ingredients after
+            // normalization.
+            const uniqueCocktailIngredients =
+                cocktailIngredients.filter(
+                    (
+                        ingredient,
+                        index,
+                        array
+                    ) =>
+
+                        array.findIndex(
+                            item =>
+                                item.normalized ===
+                                ingredient.normalized
+                        ) === index
                 );
 
 
             const missingIngredients =
-                cocktailIngredients.filter(
+                uniqueCocktailIngredients.filter(
                     ingredient =>
+
                         !selectedIngredients.includes(
-                            ingredient
+                            ingredient.normalized
                         )
                 );
 
@@ -598,11 +761,14 @@ function displayMakeResults(
             ) {
 
                 almostMake.push({
+
                     cocktail:
                         cocktail,
 
                     missingIngredient:
                         missingIngredients[0]
+                            .original
+
                 });
 
             }
@@ -644,10 +810,12 @@ function displayMakeResults(
     almostMakeGrid.innerHTML =
         almostMake
             .map(item =>
+
                 createAlmostCard(
                     item.cocktail,
                     item.missingIngredient
                 )
+
             )
             .join("");
 
