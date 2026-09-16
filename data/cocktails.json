@@ -1,477 +1,3127 @@
 [
-    {
-        "id": "mojito",
-        "name": "Mojito",
-        "category": "rum",
-        "difficulty": "Easy",
-        "time": 5,
-        "glass": "Highball glass",
-        "description": "A refreshing Cuban cocktail with white rum, lime, mint and soda water.",
-        "garnish": "Mint sprig and lime wedge",
-        "tags": [
-            "refreshing",
-            "citrus",
-            "summer"
-        ],
-        "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a",
-        "featured": true,
-        "popular": true,
-        "ingredients": [
-            {
-                "name": "White Rum",
-                "amount": "60 ml"
-            },
-            {
-                "name": "Lime Juice",
-                "amount": "30 ml"
-            },
-            {
-                "name": "Sugar",
-                "amount": "2 tsp"
-            },
-            {
-                "name": "Mint Leaves",
-                "amount": "10"
-            },
-            {
-                "name": "Soda Water",
-                "amount": "Top up"
-            }
-        ],
-        "method": [
-            "Add mint leaves and sugar to the glass.",
-            "Add lime juice and gently muddle.",
-            "Pour in the white rum.",
-            "Fill the glass with ice.",
-            "Top with soda water.",
-            "Stir gently and garnish with mint."
-        ]
-    },
-    {
-        "id": "aperol-spritz",
-        "name": "Aperol Spritz",
-        "category": "aperol",
-        "difficulty": "Easy",
-        "time": 5,
-        "glass": "Wine glass",
-        "description": "A light and bittersweet Italian aperitif with Aperol, Prosecco and soda.",
-        "garnish": "Orange slice",
-        "tags": [
-            "bitter",
-            "sparkling",
-            "summer"
-        ],
-        "image": "https://images.unsplash.com/photo-1551024506-0bccd828d307",
-        "featured": false,
-        "popular": true,
-        "ingredients": [
-            {
-                "name": "Aperol",
-                "amount": "60 ml"
-            },
-            {
-                "name": "Prosecco",
-                "amount": "90 ml"
-            },
-            {
-                "name": "Soda Water",
-                "amount": "30 ml"
-            },
-            {
-                "name": "Orange",
-                "amount": "1 slice"
-            }
-        ],
-        "method": [
-            "Fill a wine glass with ice.",
-            "Add Aperol.",
-            "Add Prosecco.",
-            "Top with soda water.",
-            "Garnish with an orange slice."
-        ]
-    },
-    {
-        "id": "espresso-martini",
-        "name": "Espresso Martini",
-        "category": "vodka",
-        "difficulty": "Easy",
-        "time": 10,
-        "glass": "Martini glass",
-        "description": "A rich coffee cocktail combining vodka, coffee liqueur and fresh espresso.",
-        "garnish": "Coffee beans",
-        "tags": [
-            "coffee",
-            "rich",
-            "night"
-        ],
-        "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd",
-        "featured": false,
-        "popular": true,
-        "ingredients": [
-            {
-                "name": "Vodka",
-                "amount": "50 ml"
-            },
-            {
-                "name": "Coffee Liqueur",
-                "amount": "25 ml"
-            },
-            {
-                "name": "Espresso",
-                "amount": "30 ml"
-            }
-        ],
-        "method": [
-            "Add all ingredients to a shaker with ice.",
-            "Shake hard until chilled.",
-            "Strain into a chilled Martini glass.",
-            "Garnish with coffee beans."
-        ]
-    },
-    {
-        "id": "vodka-martini",
-        "name": "Vodka Martini",
-        "category": "vodka",
-        "difficulty": "Easy",
-        "time": 5,
-        "glass": "Martini glass",
-        "description": "A clean and elegant cocktail made with vodka and dry vermouth.",
-        "garnish": "Olive or lemon twist",
-        "tags": [
-            "strong",
-            "classic",
-            "dry"
-        ],
-        "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e",
-        "featured": false,
-        "popular": false,
-        "ingredients": [
-            {
-                "name": "Vodka",
-                "amount": "60 ml"
-            },
-            {
-                "name": "Dry Vermouth",
-                "amount": "10 ml"
-            }
-        ],
-        "method": [
-            "Add vodka and vermouth to a mixing glass with ice.",
-            "Stir until chilled.",
-            "Strain into a Martini glass.",
-            "Garnish with an olive or lemon twist."
-        ]
-    },
-    {
-        "id": "white-russian",
-        "name": "White Russian",
-        "category": "vodka",
-        "difficulty": "Easy",
-        "time": 5,
-        "glass": "Old Fashioned glass",
-        "description": "A creamy vodka cocktail with coffee liqueur and cream.",
-        "garnish": "None",
-        "tags": [
-            "creamy",
-            "coffee",
-            "dessert"
-        ],
-        "image": "https://images.unsplash.com/photo-1536935338788-846bb9981813",
-        "featured": false,
-        "popular": false,
-        "ingredients": [
-            {
-                "name": "Vodka",
-                "amount": "50 ml"
-            },
-            {
-                "name": "Coffee Liqueur",
-                "amount": "25 ml"
-            },
-            {
-                "name": "Cream",
-                "amount": "25 ml"
-            }
-        ],
-        "method": [
-            "Fill the glass with ice.",
-            "Add vodka and coffee liqueur.",
-            "Slowly add the cream.",
-            "Stir gently before drinking."
-        ]
-    },
-    {
-        "id": "margarita",
-        "name": "Margarita",
-        "category": "tequila",
-        "difficulty": "Easy",
-        "time": 5,
-        "glass": "Margarita glass",
-        "description": "A bright tequila cocktail with lime juice and orange liqueur.",
-        "garnish": "Lime wheel",
-        "tags": [
-            "citrus",
-            "classic",
-            "refreshing"
-        ],
-        "image": "https://images.unsplash.com/photo-1556855810-ac404aa91e85",
-        "featured": false,
-        "popular": true,
-        "ingredients": [
-            {
-                "name": "Tequila",
-                "amount": "50 ml"
-            },
-            {
-                "name": "Triple Sec",
-                "amount": "25 ml"
-            },
-            {
-                "name": "Lime Juice",
-                "amount": "25 ml"
-            }
-        ],
-        "method": [
-            "Add all ingredients to a shaker with ice.",
-            "Shake until chilled.",
-            "Strain into a Margarita glass.",
-            "Garnish with lime."
-        ]
-    },
-    {
-        "id": "gin-tonic",
-        "name": "Gin & Tonic",
-        "category": "gin",
-        "difficulty": "Easy",
-        "time": 3,
-        "glass": "Highball glass",
-        "description": "A crisp and simple highball made with gin and tonic water.",
-        "garnish": "Lime wedge",
-        "tags": [
-            "refreshing",
-            "simple",
-            "classic"
-        ],
-        "image": "https://images.unsplash.com/photo-1527761939622-91190946328b",
-        "featured": false,
-        "popular": true,
-        "ingredients": [
-            {
-                "name": "Gin",
-                "amount": "50 ml"
-            },
-            {
-                "name": "Tonic Water",
-                "amount": "Top up"
-            },
-            {
-                "name": "Lime",
-                "amount": "1 wedge"
-            }
-        ],
-        "method": [
-            "Fill a highball glass with ice.",
-            "Add gin.",
-            "Top with tonic water.",
-            "Gently stir.",
-            "Garnish with lime."
-        ]
-    },
-    {
-        "id": "negroni",
-        "name": "Negroni",
-        "category": "gin",
-        "difficulty": "Easy",
-        "time": 5,
-        "glass": "Old Fashioned glass",
-        "description": "A bold bittersweet Italian classic made with gin, Campari and sweet vermouth.",
-        "garnish": "Orange peel",
-        "tags": [
-            "bitter",
-            "strong",
-            "classic"
-        ],
-        "image": "https://images.unsplash.com/photo-1597290282695-edc43d0e7129",
-        "featured": false,
-        "popular": true,
-        "ingredients": [
-            {
-                "name": "Gin",
-                "amount": "30 ml"
-            },
-            {
-                "name": "Campari",
-                "amount": "30 ml"
-            },
-            {
-                "name": "Sweet Vermouth",
-                "amount": "30 ml"
-            }
-        ],
-        "method": [
-            "Add all ingredients to a mixing glass with ice.",
-            "Stir until chilled.",
-            "Strain over fresh ice.",
-            "Garnish with orange peel."
-        ]
-    },
-    {
-        "id": "moscow-mule",
-        "name": "Moscow Mule",
-        "category": "vodka",
-        "difficulty": "Easy",
-        "time": 5,
-        "glass": "Copper mug",
-        "description": "A spicy and refreshing vodka cocktail with ginger beer and lime.",
-        "garnish": "Lime wedge",
-        "tags": [
-            "refreshing",
-            "ginger",
-            "citrus"
-        ],
-        "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87",
-        "featured": false,
-        "popular": true,
-        "ingredients": [
-            {
-                "name": "Vodka",
-                "amount": "50 ml"
-            },
-            {
-                "name": "Ginger Beer",
-                "amount": "120 ml"
-            },
-            {
-                "name": "Lime Juice",
-                "amount": "15 ml"
-            }
-        ],
-        "method": [
-            "Fill a copper mug with ice.",
-            "Add vodka and lime juice.",
-            "Top with ginger beer.",
-            "Stir gently.",
-            "Garnish with lime."
-        ]
-    },
-    {
-        "id": "daiquiri",
-        "name": "Daiquiri",
-        "category": "rum",
-        "difficulty": "Easy",
-        "time": 5,
-        "glass": "Coupe glass",
-        "description": "A clean rum sour made with white rum, fresh lime juice and sugar.",
-        "garnish": "Lime wheel",
-        "tags": [
-            "citrus",
-            "classic",
-            "sour"
-        ],
-        "image": "https://images.unsplash.com/photo-1563223771-375783ee91ad",
-        "featured": false,
-        "popular": false,
-        "ingredients": [
-            {
-                "name": "White Rum",
-                "amount": "60 ml"
-            },
-            {
-                "name": "Lime Juice",
-                "amount": "30 ml"
-            },
-            {
-                "name": "Sugar Syrup",
-                "amount": "15 ml"
-            }
-        ],
-        "method": [
-            "Add all ingredients to a shaker with ice.",
-            "Shake until chilled.",
-            "Double strain into a chilled coupe glass.",
-            "Garnish with lime."
-        ]
-    },
-    {
-        "id": "tom-collins",
-        "name": "Tom Collins",
-        "category": "gin",
-        "difficulty": "Easy",
-        "time": 5,
-        "glass": "Collins glass",
-        "description": "A refreshing gin cocktail with lemon, sugar and soda water.",
-        "garnish": "Lemon slice",
-        "tags": [
-            "refreshing",
-            "citrus",
-            "long drink"
-        ],
-        "image": "https://images.unsplash.com/photo-1572116469696-31de0f17cc34",
-        "featured": false,
-        "popular": false,
-        "ingredients": [
-            {
-                "name": "Gin",
-                "amount": "50 ml"
-            },
-            {
-                "name": "Lemon Juice",
-                "amount": "25 ml"
-            },
-            {
-                "name": "Sugar Syrup",
-                "amount": "15 ml"
-            },
-            {
-                "name": "Soda Water",
-                "amount": "Top up"
-            }
-        ],
-        "method": [
-            "Add gin, lemon juice and sugar syrup to a shaker with ice.",
-            "Shake briefly.",
-            "Strain into an ice-filled Collins glass.",
-            "Top with soda water.",
-            "Garnish with lemon."
-        ]
-    },
-    {
-        "id": "tequila-sunrise",
-        "name": "Tequila Sunrise",
-        "category": "tequila",
-        "difficulty": "Easy",
-        "time": 5,
-        "glass": "Highball glass",
-        "description": "A fruity tequila cocktail with orange juice and grenadine.",
-        "garnish": "Orange slice",
-        "tags": [
-            "fruity",
-            "sweet",
-            "colorful"
-        ],
-        "image": "https://images.unsplash.com/photo-1541546339599-ecdbfcf77378",
-        "featured": false,
-        "popular": false,
-        "ingredients": [
-            {
-                "name": "Tequila",
-                "amount": "50 ml"
-            },
-            {
-                "name": "Orange Juice",
-                "amount": "100 ml"
-            },
-            {
-                "name": "Grenadine",
-                "amount": "15 ml"
-            }
-        ],
-        "method": [
-            "Fill a highball glass with ice.",
-            "Add tequila and orange juice.",
-            "Slowly pour grenadine into the glass.",
-            "Do not stir heavily so the sunrise effect remains.",
-            "Garnish with orange."
-        ]
-    }
+  {
+    "id": "mojito",
+    "name": "Mojito",
+    "category": "rum",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Highball glass",
+    "description": "A rum cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "rum",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/metwgh1606770327.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": true,
+    "popular": true,
+    "ingredients": [
+      {
+        "name": "Light rum",
+        "amount": "2-3 oz"
+      },
+      {
+        "name": "Lime",
+        "amount": "Juice of 1"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tsp"
+      },
+      {
+        "name": "Mint",
+        "amount": "2-4"
+      },
+      {
+        "name": "Soda water",
+        "amount": "To taste"
+      }
+    ],
+    "method": [
+      "Muddle mint leaves with sugar and lime juice.",
+      "Add a splash of soda water and fill the glass with cracked ice.",
+      "Pour the rum and top with soda water.",
+      "Garnish and serve with straw."
+    ]
+  },
+  {
+    "id": "old-fashioned",
+    "name": "Old Fashioned",
+    "category": "whiskey",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Old-fashioned glass",
+    "description": "A whiskey cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "whiskey",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/vrwquq1478252802.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": true,
+    "ingredients": [
+      {
+        "name": "Bourbon",
+        "amount": "4.5 cL"
+      },
+      {
+        "name": "Angostura bitters",
+        "amount": "2 dashes"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 cube"
+      },
+      {
+        "name": "Water",
+        "amount": "dash"
+      }
+    ],
+    "method": [
+      "Place sugar cube in old fashioned glass and saturate with bitters, add a dash of plain water.",
+      "Muddle until dissolved.",
+      "Fill the glass with ice cubes and add whiskey.",
+      "Garnish with orange twist, and a cocktail cherry."
+    ]
+  },
+  {
+    "id": "negroni",
+    "name": "Negroni",
+    "category": "gin",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Old-fashioned glass",
+    "description": "A gin cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/qgdu971561574065.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": true,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Campari",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Sweet Vermouth",
+        "amount": "1 oz"
+      }
+    ],
+    "method": [
+      "Stir into glass over ice, garnish and serve."
+    ]
+  },
+  {
+    "id": "whiskey-sour",
+    "name": "Whiskey Sour",
+    "category": "whiskey",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Old-fashioned glass",
+    "description": "A whiskey cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "whiskey",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/hbkfsh1589574990.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": true,
+    "ingredients": [
+      {
+        "name": "Blended whiskey",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Lemon",
+        "amount": "Juice of 1/2"
+      },
+      {
+        "name": "Powdered sugar",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Cherry",
+        "amount": "1"
+      },
+      {
+        "name": "Lemon",
+        "amount": "1/2 slice"
+      }
+    ],
+    "method": [
+      "Shake with ice.",
+      "Strain into chilled glass, garnish and serve.",
+      "If served 'On the rocks', strain ingredients into old-fashioned glass filled with ice."
+    ]
+  },
+  {
+    "id": "dry-martini",
+    "name": "Dry Martini",
+    "category": "gin",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A gin cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/6ck9yi1589574317.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "1 2/3 oz"
+      },
+      {
+        "name": "Dry Vermouth",
+        "amount": "1/3 oz"
+      },
+      {
+        "name": "Olive",
+        "amount": "1"
+      }
+    ],
+    "method": [
+      "Straight: Pour all ingredients into mixing glass with ice cubes.",
+      "Stir well.",
+      "Strain in chilled martini cocktail glass.",
+      "Squeeze oil from lemon peel onto the drink, or garnish with olive."
+    ]
+  },
+  {
+    "id": "daiquiri",
+    "name": "Daiquiri",
+    "category": "rum",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A rum cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "rum"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/mrz9091589574515.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Light rum",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Lime",
+        "amount": "Juice of 1/2"
+      },
+      {
+        "name": "Powdered sugar",
+        "amount": "1 tsp"
+      }
+    ],
+    "method": [
+      "Pour all ingredients into shaker with ice cubes.",
+      "Shake well.",
+      "Strain in chilled cocktail glass."
+    ]
+  },
+  {
+    "id": "margarita",
+    "name": "Margarita",
+    "category": "tequila",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A tequila cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "tequila",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": true,
+    "ingredients": [
+      {
+        "name": "Tequila",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Triple sec",
+        "amount": "1/2 oz"
+      },
+      {
+        "name": "Lime juice",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Salt",
+        "amount": "To taste"
+      }
+    ],
+    "method": [
+      "Rub the rim of the glass with the lime slice to make the salt stick to it.",
+      "Take care to moisten only the outer rim and sprinkle the salt on it.",
+      "The salt should present to the lips of the imbiber and never mix into the cocktail.",
+      "Shake the other ingredients with ice, then carefully pour into the glass."
+    ]
+  },
+  {
+    "id": "cosmopolitan",
+    "name": "Cosmopolitan",
+    "category": "vodka",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A vodka cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "vodka",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/kpsajh1504368362.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": true,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "1 1/4 oz"
+      },
+      {
+        "name": "Lime juice",
+        "amount": "1/4 oz"
+      },
+      {
+        "name": "Cointreau",
+        "amount": "1/4 oz"
+      },
+      {
+        "name": "Cranberry juice",
+        "amount": "1/4 cup"
+      }
+    ],
+    "method": [
+      "Add all ingredients into cocktail shaker filled with ice.",
+      "Shake well and double strain into large cocktail glass.",
+      "Garnish with lime wheel."
+    ]
+  },
+  {
+    "id": "moscow-mule",
+    "name": "Moscow Mule",
+    "category": "vodka",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Copper Mug",
+    "description": "A vodka cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "vodka",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/3pylqc1504370988.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": true,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Lime juice",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Ginger ale",
+        "amount": "8 oz"
+      }
+    ],
+    "method": [
+      "Combine vodka and ginger beer in a highball glass filled with ice.",
+      "Add lime juice.",
+      "Stir gently.",
+      "Garnish."
+    ]
+  },
+  {
+    "id": "pina-colada",
+    "name": "Pina Colada",
+    "category": "rum",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Collins glass",
+    "description": "A rum cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "rum",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/upgsue1668419912.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": true,
+    "ingredients": [
+      {
+        "name": "Light rum",
+        "amount": "3 oz"
+      },
+      {
+        "name": "Coconut milk",
+        "amount": "3 tblsp"
+      },
+      {
+        "name": "Pineapple",
+        "amount": "3 tblsp"
+      }
+    ],
+    "method": [
+      "Mix with crushed ice in blender until smooth.",
+      "Pour into chilled glass, garnish and serve."
+    ]
+  },
+  {
+    "id": "mai-tai",
+    "name": "Mai Tai",
+    "category": "rum",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Collins glass",
+    "description": "A rum cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "rum",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/twyrrp1439907470.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": true,
+    "ingredients": [
+      {
+        "name": "Light rum",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Orgeat syrup",
+        "amount": "1/2 oz"
+      },
+      {
+        "name": "Triple sec",
+        "amount": "1/2 oz"
+      },
+      {
+        "name": "Sweet and sour",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Cherry",
+        "amount": "1"
+      }
+    ],
+    "method": [
+      "Shake all ingredients with ice.",
+      "Strain into glass.",
+      "Garnish and serve with straw."
+    ]
+  },
+  {
+    "id": "cuba-libre",
+    "name": "Cuba Libre",
+    "category": "rum",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Highball glass",
+    "description": "A rum cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "rum",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/wmkbfj1606853905.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Light rum",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Lime",
+        "amount": "Juice of 1/2"
+      },
+      {
+        "name": "Coca-Cola",
+        "amount": "To taste"
+      }
+    ],
+    "method": [
+      "Build all ingredients in a Collins glass filled with ice.",
+      "Garnish with lime wedge."
+    ]
+  },
+  {
+    "id": "tequila-sunrise",
+    "name": "Tequila Sunrise",
+    "category": "tequila",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Highball glass",
+    "description": "A tequila cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "tequila",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/quqyqp1480879103.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Tequila",
+        "amount": "2 measures"
+      },
+      {
+        "name": "Orange juice",
+        "amount": "To taste"
+      },
+      {
+        "name": "Grenadine",
+        "amount": "To taste"
+      }
+    ],
+    "method": [
+      "Pour the tequila and orange juice into glass over ice.",
+      "Add the grenadine, which will sink to the bottom.",
+      "Stir gently to create the sunrise effect.",
+      "Garnish and serve."
+    ]
+  },
+  {
+    "id": "bloody-mary",
+    "name": "Bloody Mary",
+    "category": "vodka",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Old-fashioned glass",
+    "description": "A vodka cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "vodka",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/t6caa21582485702.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Tomato juice",
+        "amount": "3 oz"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "1 dash"
+      },
+      {
+        "name": "Worcestershire sauce",
+        "amount": "1/2 tsp"
+      },
+      {
+        "name": "Tabasco sauce",
+        "amount": "2-3 drops"
+      },
+      {
+        "name": "Lime",
+        "amount": "1 wedge"
+      }
+    ],
+    "method": [
+      "Stirring gently, pour all ingredients into highball glass.",
+      "Garnish."
+    ]
+  },
+  {
+    "id": "black-russian",
+    "name": "Black Russian",
+    "category": "vodka",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Old-fashioned glass",
+    "description": "A vodka cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "vodka",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/8oxlqf1606772765.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Coffee liqueur",
+        "amount": "3/4 oz"
+      },
+      {
+        "name": "Vodka",
+        "amount": "1 1/2 oz"
+      }
+    ],
+    "method": [
+      "Pour the ingredients into an old fashioned glass filled with ice cubes.",
+      "Stir gently."
+    ]
+  },
+  {
+    "id": "white-russian",
+    "name": "White Russian",
+    "category": "vodka",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Old-fashioned glass",
+    "description": "A vodka cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "vodka"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/vsrupw1472405732.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Coffee liqueur",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Light cream",
+        "amount": "To taste"
+      }
+    ],
+    "method": [
+      "Pour vodka and coffee liqueur over ice cubes in an old-fashioned glass.",
+      "Fill with light cream and serve."
+    ]
+  },
+  {
+    "id": "espresso-martini",
+    "name": "Espresso Martini",
+    "category": "vodka",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A vodka cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "vodka",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/n0sx531504372951.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": true,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "5 cl"
+      },
+      {
+        "name": "Kahlua",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Sugar syrup",
+        "amount": "1 dash"
+      }
+    ],
+    "method": [
+      "Pour ingredients into shaker filled with ice, shake vigorously, and strain into chilled martini glass"
+    ]
+  },
+  {
+    "id": "aperol-spritz",
+    "name": "Aperol Spritz",
+    "category": "sparkling",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Wine Glass",
+    "description": "A sparkling cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "sparkling"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/iloasq1587661955.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Aperol",
+        "amount": "100 ml"
+      },
+      {
+        "name": "Prosecco",
+        "amount": "150 ml"
+      },
+      {
+        "name": "Soda Water",
+        "amount": "Top"
+      }
+    ],
+    "method": [
+      "Put a couple of cubes of ice into 2 glasses and add a 50 ml measure of Aperol to each.",
+      "Divide the prosecco between the glasses and then top up with soda, if you like."
+    ]
+  },
+  {
+    "id": "gin-fizz",
+    "name": "Gin Fizz",
+    "category": "gin",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Highball glass",
+    "description": "A gin cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/drtihp1606768397.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Lemon",
+        "amount": "Juice of 1/2"
+      },
+      {
+        "name": "Powdered sugar",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Carbonated water",
+        "amount": "To taste"
+      }
+    ],
+    "method": [
+      "Shake all ingredients with ice cubes, except soda water.",
+      "Pour into glass.",
+      "Top with soda water."
+    ]
+  },
+  {
+    "id": "tom-collins",
+    "name": "Tom Collins",
+    "category": "gin",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Collins glass",
+    "description": "A gin cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/7cll921606854636.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tsp superfine"
+      },
+      {
+        "name": "Club soda",
+        "amount": "3 oz"
+      },
+      {
+        "name": "Maraschino cherry",
+        "amount": "1"
+      },
+      {
+        "name": "Orange",
+        "amount": "1"
+      }
+    ],
+    "method": [
+      "In a shaker half-filled with ice cubes, combine the gin, lemon juice, and sugar.",
+      "Shake well.",
+      "Strain into a collins glass alomst filled with ice cubes.",
+      "Add the club soda.",
+      "Stir and garnish with the cherry and the orange slice."
+    ]
+  },
+  {
+    "id": "french-75",
+    "name": "French 75",
+    "category": "gin",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Collins glass",
+    "description": "A gin cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/hrxfbl1606773109.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Sugar",
+        "amount": "2 tsp superfine"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Champagne",
+        "amount": "4 oz Chilled"
+      },
+      {
+        "name": "Orange",
+        "amount": "1"
+      },
+      {
+        "name": "Maraschino cherry",
+        "amount": "1"
+      }
+    ],
+    "method": [
+      "Combine gin, sugar, and lemon juice in a cocktail shaker filled with ice.",
+      "Shake vigorously and strain into a chilled champagne glass.",
+      "Top up with Champagne.",
+      "Stir gently."
+    ]
+  },
+  {
+    "id": "bellini",
+    "name": "Bellini",
+    "category": "sparkling",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Champagne Flute",
+    "description": "A sparkling cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "sparkling",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/eaag491504367543.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Champagne",
+        "amount": "6 oz"
+      },
+      {
+        "name": "Peach schnapps",
+        "amount": "1 oz"
+      }
+    ],
+    "method": [
+      "Pour peach purée into chilled flute, add sparkling wine.",
+      "Stir gently."
+    ]
+  },
+  {
+    "id": "caipirinha",
+    "name": "Caipirinha",
+    "category": "other",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Old-fashioned glass",
+    "description": "A other cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "other",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/jgvn7p1582484435.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Sugar",
+        "amount": "2 tsp"
+      },
+      {
+        "name": "Lime",
+        "amount": "1"
+      },
+      {
+        "name": "Cachaca",
+        "amount": "2 1/2 oz"
+      }
+    ],
+    "method": [
+      "Place lime and sugar into old fashioned glass and muddle (mash the two ingredients together using a muddler or a wooden spoon).",
+      "Fill the glass with ice and add the Cachaça."
+    ]
+  },
+  {
+    "id": "manhattan",
+    "name": "Manhattan",
+    "category": "whiskey",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Cocktail glass",
+    "description": "A whiskey cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "whiskey",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/yk70e31606771240.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Sweet Vermouth",
+        "amount": "3/4 oz"
+      },
+      {
+        "name": "Bourbon",
+        "amount": "2 1/2 oz Blended"
+      },
+      {
+        "name": "Angostura bitters",
+        "amount": "dash"
+      },
+      {
+        "name": "Ice",
+        "amount": "2 or 3"
+      },
+      {
+        "name": "Maraschino cherry",
+        "amount": "1"
+      },
+      {
+        "name": "Orange peel",
+        "amount": "1 twist of"
+      }
+    ],
+    "method": [
+      "Stirred over ice, strained into a chilled glass, garnished, and served up."
+    ]
+  },
+  {
+    "id": "boulevardier",
+    "name": "Boulevardier",
+    "category": "whiskey",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Martini Glass",
+    "description": "A whiskey cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "whiskey"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/km84qi1513705868.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Campari",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Sweet Vermouth",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Rye whiskey",
+        "amount": "1 1/4 oz"
+      },
+      {
+        "name": "Orange Peel",
+        "amount": "1"
+      }
+    ],
+    "method": [
+      "Stir with ice, strain, garnish and serve."
+    ]
+  },
+  {
+    "id": "sidecar",
+    "name": "Sidecar",
+    "category": "brandy",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A brandy cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "brandy",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/x72sik1606854964.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Cognac",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Cointreau",
+        "amount": "1/2 oz"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "1 oz"
+      }
+    ],
+    "method": [
+      "Pour all ingredients into cocktail shaker filled with ice.",
+      "Shake well and strain into cocktail glass."
+    ]
+  },
+  {
+    "id": "aviation",
+    "name": "Aviation",
+    "category": "gin",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A gin cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/trbplb1606855233.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "4.5 cl"
+      },
+      {
+        "name": "lemon juice",
+        "amount": "1.5 cl"
+      },
+      {
+        "name": "maraschino liqueur",
+        "amount": "1.5 cl"
+      }
+    ],
+    "method": [
+      "Add all ingredients into cocktail shaker filled with ice.",
+      "Shake well and strain into cocktail glass.",
+      "Garnish with a cherry."
+    ]
+  },
+  {
+    "id": "clover-club",
+    "name": "Clover Club",
+    "category": "gin",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A gin cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/t0aja61504348715.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Grenadine",
+        "amount": "2 tsp"
+      },
+      {
+        "name": "Lemon",
+        "amount": "Juice of 1/2"
+      },
+      {
+        "name": "Egg white",
+        "amount": "1"
+      }
+    ],
+    "method": [
+      "Dry shake ingredients to emulsify, add ice, shake and served straight up."
+    ]
+  },
+  {
+    "id": "the-last-word",
+    "name": "The Last Word",
+    "category": "gin",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A gin cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/91oule1513702624.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Green Chartreuse",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Maraschino Liqueur",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Lime Juice",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Gin",
+        "amount": "1 oz"
+      }
+    ],
+    "method": [
+      "Shake with ice and strain into a cocktail glass."
+    ]
+  },
+  {
+    "id": "paloma",
+    "name": "Paloma",
+    "category": "tequila",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Collins glass",
+    "description": "A tequila cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "tequila"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/samm5j1513706393.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Grape Soda",
+        "amount": "3 oz"
+      },
+      {
+        "name": "Tequila",
+        "amount": "1 1/2 oz"
+      }
+    ],
+    "method": [
+      "Stir together and serve over ice."
+    ]
+  },
+  {
+    "id": "penicillin",
+    "name": "Penicillin",
+    "category": "other",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Old-fashioned glass",
+    "description": "A other cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "other"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/hc9b1a1521853096.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Blended Scotch",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Lemon Juice",
+        "amount": "3/4 oz"
+      },
+      {
+        "name": "Honey syrup",
+        "amount": "2 tsp"
+      },
+      {
+        "name": "Ginger Syrup",
+        "amount": "2 tsp"
+      },
+      {
+        "name": "Islay single malt Scotch",
+        "amount": "1/4 oz"
+      }
+    ],
+    "method": [
+      "Shake blended Scotch, lemon juice, honey syrup and ginger syrup with ice.",
+      "Strain over large ice in chilled rocks glass.",
+      "Float smoky Scotch on top (be sure to use a smoky Scotch such as an Islay single malt).",
+      "Garnish with candied ginger."
+    ]
+  },
+  {
+    "id": "gin-basil-smash",
+    "name": "Gin Basil Smash",
+    "category": "gin",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Highball glass",
+    "description": "A gin cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/jqh2141572807327.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "6 cl"
+      },
+      {
+        "name": "Lemon Juice",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Sugar Syrup",
+        "amount": "2 cl"
+      },
+      {
+        "name": "Basil",
+        "amount": "Whole"
+      }
+    ],
+    "method": [
+      "Muddle Basil leaves (~ 10) with Suggar Syrup in a shaker.",
+      "Add Gin an Lemon Juice.",
+      "Filter and serve in a tumbler with ice"
+    ]
+  },
+  {
+    "id": "new-york-sour",
+    "name": "New York Sour",
+    "category": "whiskey",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Whiskey sour glass",
+    "description": "A whiskey cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "whiskey"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/61wgch1504882795.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Blended whiskey",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Lemon",
+        "amount": "Juice of 1/2"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Red wine",
+        "amount": "(Claret)"
+      },
+      {
+        "name": "Lemon",
+        "amount": "To taste"
+      },
+      {
+        "name": "Cherry",
+        "amount": "To taste"
+      }
+    ],
+    "method": [
+      "Shake blended whiskey, juice of lemon, and powdered sugar with ice and strain into a whiskey sour glass.",
+      "Float claret on top.",
+      "Decorate with the half-slice of lemon and the cherry and serve."
+    ]
+  },
+  {
+    "id": "old-cuban",
+    "name": "Old Cuban",
+    "category": "rum",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Cocktail glass",
+    "description": "A rum cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "rum"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/eo8gfx1699022995.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "White Rum",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Sugar Syrup",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Lime Juice",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Angostura Bitters",
+        "amount": "2 dashes"
+      },
+      {
+        "name": "Prosecco",
+        "amount": "2 oz"
+      }
+    ],
+    "method": [
+      "Shake a handful of mint, 2oz white rum, 1oz of sugar syrup, 1oz lime juice and 2 dashes angostura bitters with ice.",
+      "Double strain into a glass and top with 2oz of prosecco."
+    ]
+  },
+  {
+    "id": "dark-and-stormy",
+    "name": "Dark and Stormy",
+    "category": "rum",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Highball glass",
+    "description": "A rum cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "rum",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/t1tn0s1504374905.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Dark Rum",
+        "amount": "5 cl"
+      },
+      {
+        "name": "Ginger Beer",
+        "amount": "10 cl"
+      }
+    ],
+    "method": [
+      "In a highball glass filled with ice add 6cl dark rum and top with ginger beer.",
+      "Garnish with lime wedge."
+    ]
+  },
+  {
+    "id": "french-martini",
+    "name": "French Martini",
+    "category": "vodka",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A vodka cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "vodka",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/clth721504373134.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "4.5 cl"
+      },
+      {
+        "name": "Raspberry Liqueur",
+        "amount": "1.5 cl"
+      },
+      {
+        "name": "pineapple juice",
+        "amount": "1.5 cl"
+      }
+    ],
+    "method": [
+      "Pour all ingredients into shaker with ice cubes.",
+      "Shake well and strain into a chilled cocktail glass.",
+      "Squeeze oil from lemon peel onto the drink."
+    ]
+  },
+  {
+    "id": "sex-on-the-beach",
+    "name": "Sex on the Beach",
+    "category": "vodka",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Highball glass",
+    "description": "A vodka cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "vodka",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/fi67641668420787.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Peach schnapps",
+        "amount": "3/4 oz"
+      },
+      {
+        "name": "Cranberry juice",
+        "amount": "To taste"
+      },
+      {
+        "name": "Orange juice",
+        "amount": "To taste"
+      }
+    ],
+    "method": [
+      "Build all ingredients in a highball glass filled with ice.",
+      "Garnish with orange slice."
+    ]
+  },
+  {
+    "id": "sea-breeze",
+    "name": "Sea breeze",
+    "category": "vodka",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Highball glass",
+    "description": "A vodka cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "vodka",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/7rfuks1504371562.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Cranberry juice",
+        "amount": "4 oz"
+      },
+      {
+        "name": "Grapefruit juice",
+        "amount": "1 oz"
+      }
+    ],
+    "method": [
+      "Build all ingredients in a highball glass filled with ice.",
+      "Garnish with lime wedge."
+    ]
+  },
+  {
+    "id": "singapore-sling",
+    "name": "Singapore Sling",
+    "category": "gin",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Hurricane glass",
+    "description": "A gin cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/7dozeg1582578095.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Cherry brandy",
+        "amount": "1/2 oz"
+      },
+      {
+        "name": "Grenadine",
+        "amount": "1/2 oz"
+      },
+      {
+        "name": "Gin",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Sweet and sour",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Carbonated water",
+        "amount": "To taste"
+      },
+      {
+        "name": "Cherry",
+        "amount": "To taste"
+      }
+    ],
+    "method": [
+      "Pour all ingredients into cocktail shaker filled with ice cubes.",
+      "Shake well.",
+      "Strain into highball glass.",
+      "Garnish with pineapple and cocktail cherry."
+    ]
+  },
+  {
+    "id": "pisco-sour",
+    "name": "Pisco Sour",
+    "category": "brandy",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Cocktail glass",
+    "description": "A brandy cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "brandy",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/tsssur1439907622.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Pisco",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1-2 tblsp"
+      },
+      {
+        "name": "Ice",
+        "amount": "1"
+      },
+      {
+        "name": "Egg White",
+        "amount": "To taste"
+      }
+    ],
+    "method": [
+      "Vigorously shake and strain contents in a cocktail shaker with ice cubes, then pour into glass and garnish with bitters."
+    ]
+  },
+  {
+    "id": "vesper",
+    "name": "Vesper",
+    "category": "gin",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A gin cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/mtdxpa1504374514.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "6 cl"
+      },
+      {
+        "name": "Vodka",
+        "amount": "1.5 cl"
+      },
+      {
+        "name": "Lillet Blanc",
+        "amount": "0.75 cl"
+      }
+    ],
+    "method": [
+      "Shake over ice until well chilled, then strain into a deep goblet and garnish with a thin slice of lemon peel."
+    ]
+  },
+  {
+    "id": "zombie",
+    "name": "Zombie",
+    "category": "rum",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Hurricane glass",
+    "description": "A rum cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "rum"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/2en3jk1509557725.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Rum",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Gold rum",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "151 proof rum",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Pernod",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Grenadine",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Lime Juice",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Angostura Bitters",
+        "amount": "1 drop"
+      }
+    ],
+    "method": [
+      "Blend at high speed for no more than 5 seconds.",
+      "Pour into a glass, add ice cubes to fill, then add the garnish.",
+      "*Donn’s mix: Bring 3 crushed cinnamon sticks, 1 cup of sugar and 1 cup of water to a boil, stirring until the sugar is dissolved.",
+      "Simmer for 2 minutes, then remove from the heat and let sit for at least 2 hours before straining into a clean glass bottle.",
+      "Then add 1 part of the syrup and 2 parts of fresh grapefruit juice together."
+    ]
+  },
+  {
+    "id": "hemingway-special",
+    "name": "Hemingway Special",
+    "category": "rum",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A rum cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "rum",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/jfcvps1504369888.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Rum",
+        "amount": "12 parts"
+      },
+      {
+        "name": "Grapefruit Juice",
+        "amount": "8 parts"
+      },
+      {
+        "name": "Maraschino Liqueur",
+        "amount": "3 parts"
+      },
+      {
+        "name": "Lime Juice",
+        "amount": "3 parts"
+      }
+    ],
+    "method": [
+      "Pour all ingredients into a shaker with ice.",
+      "Shake."
+    ]
+  },
+  {
+    "id": "irish-coffee",
+    "name": "Irish Coffee",
+    "category": "whiskey",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Irish coffee cup",
+    "description": "A whiskey cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "whiskey",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/sywsqw1439906999.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Irish whiskey",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Coffee",
+        "amount": "8 oz"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Whipped cream",
+        "amount": "1 tblsp"
+      }
+    ],
+    "method": [
+      "Heat the coffee, whiskey and sugar; do not boil.",
+      "Pour into glass and top with cream; serve hot."
+    ]
+  },
+  {
+    "id": "grasshopper",
+    "name": "Grasshopper",
+    "category": "other",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A other cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "other",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/aqm9el1504369613.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Green Creme de Menthe",
+        "amount": "3/4 oz"
+      },
+      {
+        "name": "Creme de Cacao",
+        "amount": "3/4 oz white"
+      },
+      {
+        "name": "Light cream",
+        "amount": "3/4 oz"
+      }
+    ],
+    "method": [
+      "Pour ingredients into a cocktail shaker with ice.",
+      "Shake briskly and then strain into a chilled cocktail glass."
+    ]
+  },
+  {
+    "id": "champagne-cocktail",
+    "name": "Champagne Cocktail",
+    "category": "brandy",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Champagne flute",
+    "description": "A brandy cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "brandy",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/t5pv461606773026.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Champagne",
+        "amount": "Chilled"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1 piece"
+      },
+      {
+        "name": "Bitters",
+        "amount": "2 dashes"
+      },
+      {
+        "name": "Lemon peel",
+        "amount": "1 twist of"
+      },
+      {
+        "name": "Cognac",
+        "amount": "1 dash"
+      }
+    ],
+    "method": [
+      "Add dash of Angostura bitter onto sugar cube and drop it into champagne flute.",
+      "Add cognac followed by gently pouring chilled champagne.",
+      "Garnish with orange slice and maraschino cherry."
+    ]
+  },
+  {
+    "id": "americano",
+    "name": "Americano",
+    "category": "aperitif",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Collins glass",
+    "description": "A aperitif cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "aperitif",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/709s6m1613655124.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Campari",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Sweet Vermouth",
+        "amount": "1 oz red"
+      },
+      {
+        "name": "Lemon peel",
+        "amount": "Twist of"
+      },
+      {
+        "name": "Orange peel",
+        "amount": "Twist of"
+      }
+    ],
+    "method": [
+      "Pour the Campari and vermouth over ice into glass, add a splash of soda water and garnish with half orange slice."
+    ]
+  },
+  {
+    "id": "alexander",
+    "name": "Alexander",
+    "category": "gin",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A gin cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/0clus51606772388.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "1/2 oz"
+      },
+      {
+        "name": "Creme de Cacao",
+        "amount": "1/2 oz white"
+      },
+      {
+        "name": "Light cream",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Nutmeg",
+        "amount": "To taste"
+      }
+    ],
+    "method": [
+      "Shake all ingredients with ice and strain contents into a cocktail glass.",
+      "Sprinkle nutmeg on top and serve."
+    ]
+  },
+  {
+    "id": "angel-face",
+    "name": "Angel Face",
+    "category": "gin",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A gin cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/vaukir1606772580.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Apricot brandy",
+        "amount": "1/2 oz"
+      },
+      {
+        "name": "Apple brandy",
+        "amount": "1/2 oz"
+      },
+      {
+        "name": "Gin",
+        "amount": "1 oz"
+      }
+    ],
+    "method": [
+      "Shake all ingredients with ice and strain contents into a cocktail glass."
+    ]
+  },
+  {
+    "id": "between-the-sheets",
+    "name": "Between The Sheets",
+    "category": "rum",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A rum cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "rum",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/of1rj41504348346.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Brandy",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Light rum",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Triple sec",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "1 oz"
+      }
+    ],
+    "method": [
+      "Pour all ingredients into shaker with ice cubes, shake, strain into chilled cocktail glass."
+    ]
+  },
+  {
+    "id": "casino",
+    "name": "Casino",
+    "category": "gin",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Cocktail glass",
+    "description": "A gin cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/1mvjxg1504348579.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Maraschino liqueur",
+        "amount": "1/4 tsp"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "1/4 tsp"
+      },
+      {
+        "name": "Orange bitters",
+        "amount": "2 dashes"
+      },
+      {
+        "name": "Cherry",
+        "amount": "1"
+      }
+    ],
+    "method": [
+      "Pour all ingredients into shaker with ice cubes.",
+      "Shake well.",
+      "Strain into chilled cocktail glass.",
+      "Garnish with a lemon twist and a maraschino cherry.",
+      "Serve without a straw."
+    ]
+  },
+  {
+    "id": "french-connection",
+    "name": "French Connection",
+    "category": "brandy",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Old-fashioned glass",
+    "description": "A brandy cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "brandy",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/zaqa381504368758.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Cognac",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Amaretto",
+        "amount": "3/4 oz"
+      }
+    ],
+    "method": [
+      "Pour all ingredients directly into old fashioned glass filled with ice cubes.",
+      "Stir gently."
+    ]
+  },
+  {
+    "id": "autumn-garibaldi",
+    "name": "Autumn Garibaldi",
+    "category": "aperitif",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cordial glass",
+    "description": "A aperitif cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "aperitif"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/ne7re71604179012.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Campari",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Orange Juice",
+        "amount": "2 1/2 oz"
+      },
+      {
+        "name": "Ginger Beer",
+        "amount": "2 1/2 oz"
+      },
+      {
+        "name": "Orange Peel",
+        "amount": "Garnish with"
+      }
+    ],
+    "method": [
+      "Pour all ingredients into a glass over ice and stir with a bar spoon.",
+      "Garnish with some orange slices."
+    ]
+  },
+  {
+    "id": "kir",
+    "name": "Kir",
+    "category": "sparkling",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Wine Glass",
+    "description": "A sparkling cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "sparkling"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/apneom1504370294.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Creme de Cassis",
+        "amount": "1 part"
+      },
+      {
+        "name": "Champagne",
+        "amount": "5 parts"
+      }
+    ],
+    "method": [
+      "Add the crème de cassis to the bottom of the glass, then top up with wine."
+    ]
+  },
+  {
+    "id": "ramos-gin-fizz",
+    "name": "Ramos Gin Fizz",
+    "category": "gin",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Highball glass",
+    "description": "A gin cocktail with a distinctive classic character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/967t911643844053.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "4.5 cL"
+      },
+      {
+        "name": "Lemon Juice",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Sugar Syrup",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Cream",
+        "amount": "6 cl"
+      },
+      {
+        "name": "Egg White",
+        "amount": "1"
+      },
+      {
+        "name": "Vanilla extract",
+        "amount": "2 drop"
+      },
+      {
+        "name": "Soda Water",
+        "amount": "2 cl"
+      }
+    ],
+    "method": [
+      "Prepare all the ingredients on the counter to be able to work well and quickly, especially the cream and egg white.",
+      "Pour all the ingredients into a shaker.",
+      "Shake vigorously for 1 minute: cream and egg white must be mixed perfectly, so don't rush.",
+      "Now open the shaker and put some ice and shake for 1-2 minutes.",
+      "It depends on how long you can resist!",
+      "Pour into a highball glass, add a splash of soda and garnish to taste.",
+      "Ramos Gin Fizz was once drunk as an invigorating drink or even as a breakfast, try it as an aperitif and after dinner and you will discover a little gem now lost."
+    ]
+  },
+  {
+    "id": "rusty-nail",
+    "name": "Rusty Nail",
+    "category": "other",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Old-fashioned glass",
+    "description": "A other cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "other",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/yqsvtw1478252982.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Scotch",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Drambuie",
+        "amount": "1/2 oz"
+      },
+      {
+        "name": "Lemon peel",
+        "amount": "1 twist of"
+      }
+    ],
+    "method": [
+      "Pour the Scotch and Drambuie into an old-fashioned glass almost filled with ice cubes.",
+      "Stir well.",
+      "Garnish with the lemon twist."
+    ]
+  },
+  {
+    "id": "sazerac",
+    "name": "Sazerac",
+    "category": "whiskey",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Old-fashioned glass",
+    "description": "A whiskey cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "whiskey",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/vvpxwy1439907208.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Ricard",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1/2 tsp superfine"
+      },
+      {
+        "name": "Peychaud bitters",
+        "amount": "2 dashes"
+      },
+      {
+        "name": "Water",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Bourbon",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Lemon peel",
+        "amount": "1 twist of"
+      }
+    ],
+    "method": [
+      "Rinse a chilled old-fashioned glass with the absinthe, add crushed ice, and set it aside.",
+      "Stir the remaining ingredients over ice and set it aside.",
+      "Discard the ice and any excess absinthe from the prepared glass, and strain the drink into the glass.",
+      "Add the lemon peel for garnish."
+    ]
+  },
+  {
+    "id": "stinger",
+    "name": "Stinger",
+    "category": "brandy",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A brandy cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "brandy",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/2ahv791504352433.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Brandy",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "White Creme de Menthe",
+        "amount": "1/2 oz"
+      }
+    ],
+    "method": [
+      "Pour in a mixing glass with ice, stir and strain into a cocktail glass.",
+      "May also be served on rocks in a rocks glass."
+    ]
+  },
+  {
+    "id": "tuxedo-cocktail",
+    "name": "Tuxedo Cocktail",
+    "category": "gin",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Cocktail glass",
+    "description": "A gin cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/4u0nbl1504352551.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Dry Vermouth",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Gin",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Maraschino liqueur",
+        "amount": "1/4 tsp"
+      },
+      {
+        "name": "Anis",
+        "amount": "1/4 tsp"
+      },
+      {
+        "name": "Orange bitters",
+        "amount": "2 dashes"
+      },
+      {
+        "name": "Cherry",
+        "amount": "1"
+      }
+    ],
+    "method": [
+      "Stir all ingredients with ice and strain into a cocktail glass.",
+      "Garnish with a cherry and a twist of lemon zest."
+    ]
+  },
+  {
+    "id": "bramble",
+    "name": "Bramble",
+    "category": "gin",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Old-Fashioned glass",
+    "description": "A gin cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/twtbh51630406392.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "4 cl"
+      },
+      {
+        "name": "lemon juice",
+        "amount": "1.5 cl"
+      },
+      {
+        "name": "Sugar syrup",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Creme de Mure",
+        "amount": "1.5 cl"
+      }
+    ],
+    "method": [
+      "Fill glass with crushed ice.",
+      "Build gin, lemon juice and simple syrup over.",
+      "Stir, and then pour blackberry liqueur over in a circular fashion to create marbling effect.",
+      "Garnish with two blackberries and lemon slice."
+    ]
+  },
+  {
+    "id": "pornstar-martini",
+    "name": "Pornstar Martini",
+    "category": "vodka",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Cocktail glass",
+    "description": "A vodka cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "vodka"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/xjhjdf1630406071.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Passoa",
+        "amount": "3 cl"
+      },
+      {
+        "name": "Passion fruit juice",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Lime",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Prosecco",
+        "amount": "1 shot"
+      }
+    ],
+    "method": [
+      "Straight: Pour all ingredients into mixing glass with ice cubes.",
+      "Shake well.",
+      "Strain in chilled martini cocktail glass.",
+      "Cut passion fruit in half and use as garnish.",
+      "Pour prosecco into a chilled shot glass and serve alongside the martini."
+    ]
+  },
+  {
+    "id": "russian-spring-punch",
+    "name": "Russian Spring Punch",
+    "category": "vodka",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Highball glass",
+    "description": "A vodka cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "vodka",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/ctt20s1504373488.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "2.5 cl"
+      },
+      {
+        "name": "Creme de Cassis",
+        "amount": "1.5 cl"
+      },
+      {
+        "name": "Sugar Syrup",
+        "amount": "1 cl"
+      },
+      {
+        "name": "Lemon Juice",
+        "amount": "2.5 cl"
+      }
+    ],
+    "method": [
+      "Pour the ingredients into an highball glass, top with Sparkling wine."
+    ]
+  },
+  {
+    "id": "tipperary",
+    "name": "Tipperary",
+    "category": "whiskey",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Nick and Nora Glass",
+    "description": "A whiskey cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "whiskey"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/b522ek1521761610.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Irish Whiskey",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Sweet Vermouth",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Green Chartreuse",
+        "amount": "1/2 oz"
+      }
+    ],
+    "method": [
+      "Stir over ice.",
+      "Strain into chilled glass.",
+      "Cut a wide swath of orange peel, and express the orange oils over the drink.",
+      "Discard orange twist."
+    ]
+  },
+  {
+    "id": "martinez-2",
+    "name": "Martinez 2",
+    "category": "gin",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A gin cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/fs6kiq1513708455.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Sweet Vermouth",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Maraschino Liqueur",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Angostura Bitters",
+        "amount": "2 dashes"
+      }
+    ],
+    "method": [
+      "Add all ingredients to a mixing glass and fill with ice.",
+      "Stir until chilled, and strain into a chilled coupe glass."
+    ]
+  },
+  {
+    "id": "godfather",
+    "name": "Godfather",
+    "category": "other",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Old-fashioned glass",
+    "description": "A other cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "other",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/e5zgao1582582378.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Scotch",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Amaretto",
+        "amount": "3/4 oz"
+      }
+    ],
+    "method": [
+      "Pour all ingredients directly into old fashioned glass filled with ice cubes.",
+      "Stir gently."
+    ]
+  },
+  {
+    "id": "godmother",
+    "name": "Godmother",
+    "category": "vodka",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Old-fashioned glass",
+    "description": "A vodka cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "vodka"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/quksqg1582582597.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Amaretto",
+        "amount": "3/4 oz"
+      }
+    ],
+    "method": [
+      "Pour vodka and amaretto into an old-fashioned glass over ice and serve."
+    ]
+  },
+  {
+    "id": "dry-rob-roy",
+    "name": "Dry Rob Roy",
+    "category": "aperitif",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Cocktail glass",
+    "description": "A aperitif cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "aperitif"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/typuyq1439456976.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Scotch",
+        "amount": "2 1/2 oz"
+      },
+      {
+        "name": "Dry Vermouth",
+        "amount": "1 1/2 tsp"
+      },
+      {
+        "name": "Lemon peel",
+        "amount": "1 twist of"
+      }
+    ],
+    "method": [
+      "In a mixing glass half-filled with ice cubes, combine the Scotch and vermouth.",
+      "Stir well.",
+      "Strain into a cocktail glass.",
+      "Garnish with the lemon twist."
+    ]
+  },
+  {
+    "id": "mint-julep",
+    "name": "Mint Julep",
+    "category": "whiskey",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Collins glass",
+    "description": "A whiskey cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "whiskey"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/squyyq1439907312.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Mint",
+        "amount": "4 fresh"
+      },
+      {
+        "name": "Bourbon",
+        "amount": "2 1/2 oz"
+      },
+      {
+        "name": "Powdered sugar",
+        "amount": "1 tsp"
+      },
+      {
+        "name": "Water",
+        "amount": "2 tsp"
+      }
+    ],
+    "method": [
+      "In a highball glass gently muddle the mint, sugar and water.",
+      "Fill the glass with cracked ice, add Bourbon and stir well until the glass is well frosted.",
+      "Garnish with a mint sprig."
+    ]
+  },
+  {
+    "id": "mimosa",
+    "name": "Mimosa",
+    "category": "sparkling",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Champagne flute",
+    "description": "A sparkling cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "sparkling",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/juhcuu1504370685.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Champagne",
+        "amount": "Chilled"
+      },
+      {
+        "name": "Orange juice",
+        "amount": "2 oz"
+      }
+    ],
+    "method": [
+      "Ensure both ingredients are well chilled, then mix into the glass.",
+      "Serve cold."
+    ]
+  },
+  {
+    "id": "gimlet",
+    "name": "Gimlet",
+    "category": "gin",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Martini Glass",
+    "description": "A gin cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/3xgldt1513707271.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "2 1/2 oz"
+      },
+      {
+        "name": "Lime Juice",
+        "amount": "1/2 oz"
+      },
+      {
+        "name": "Sugar Syrup",
+        "amount": "1/2 oz"
+      },
+      {
+        "name": "Lime",
+        "amount": "1"
+      }
+    ],
+    "method": [
+      "Add all the ingredients to a shaker and fill with ice.",
+      "Shake, and strain into a chilled cocktail glass or an Old Fashioned glass filled with fresh ice.",
+      "Garnish with a lime wheel."
+    ]
+  },
+  {
+    "id": "gin-and-tonic",
+    "name": "Gin And Tonic",
+    "category": "gin",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Highball glass",
+    "description": "A gin cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "gin"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/k0508k1668422436.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Gin",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Tonic water",
+        "amount": "5 oz"
+      },
+      {
+        "name": "Lime",
+        "amount": "1"
+      }
+    ],
+    "method": [
+      "Pour the gin and the tonic water into a highball glass almost filled with ice cubes.",
+      "Stir well.",
+      "Garnish with the lime wedge."
+    ]
+  },
+  {
+    "id": "vodka-tonic",
+    "name": "Vodka Tonic",
+    "category": "vodka",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Highball glass",
+    "description": "A vodka cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "vodka"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/9koz3f1643821062.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "4 cl"
+      },
+      {
+        "name": "Tonic Water",
+        "amount": "10 cl"
+      },
+      {
+        "name": "Lemon Peel",
+        "amount": "1 Slice"
+      }
+    ],
+    "method": [
+      "Wash and cut 1 wedge and 1 slice of lime or lemon.",
+      "Fill a tumbler with fresh ice.",
+      "Pour the desired dose of vodka and top up with the tonic.",
+      "Squeeze the lime wedge into the glass and decorate with the slice.",
+      "That's all, very simple: it's just the recipe for happiness!"
+    ]
+  },
+  {
+    "id": "rum-sour",
+    "name": "Rum Sour",
+    "category": "rum",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Whiskey sour glass",
+    "description": "A rum cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "rum"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/bylfi21504886323.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Light rum",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Lemon juice",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Sugar",
+        "amount": "1/2 tsp superfine"
+      },
+      {
+        "name": "Orange",
+        "amount": "1"
+      },
+      {
+        "name": "Maraschino cherry",
+        "amount": "1"
+      }
+    ],
+    "method": [
+      "In a shaker half-filled with ice cubes, combine the rum, lemon juice, and sugar.",
+      "Shake well.",
+      "Strain into a sour glass and garnish with the orange slice and the cherry."
+    ]
+  },
+  {
+    "id": "amaretto-sour",
+    "name": "Amaretto Sour",
+    "category": "other",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Collins Glass",
+    "description": "A other cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "other"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/xnzc541493070211.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Amaretto",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Sour mix",
+        "amount": "3 oz"
+      }
+    ],
+    "method": [
+      "Shake and strain.",
+      "Garnish with a cherry and an orange slice."
+    ]
+  },
+  {
+    "id": "blue-lagoon",
+    "name": "Blue Lagoon",
+    "category": "vodka",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Highball glass",
+    "description": "A vodka cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "vodka"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/5wm4zo1582579154.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Blue Curacao",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Lemonade",
+        "amount": "To taste"
+      },
+      {
+        "name": "Cherry",
+        "amount": "To taste"
+      }
+    ],
+    "method": [
+      "Pour vodka and curacao over ice in a highball glass.",
+      "Fill with lemonade, top with the cherry, and serve."
+    ]
+  },
+  {
+    "id": "blue-hurricane",
+    "name": "Blue Hurricane",
+    "category": "rum",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Highball glass",
+    "description": "A rum cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "rum"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/nwx02s1515795822.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Rum",
+        "amount": "4 parts"
+      },
+      {
+        "name": "Dark Rum",
+        "amount": "2 parts"
+      },
+      {
+        "name": "Passoa",
+        "amount": "1 part"
+      },
+      {
+        "name": "Blue Curacao",
+        "amount": "1 part"
+      },
+      {
+        "name": "Sweet and Sour",
+        "amount": "6 parts"
+      },
+      {
+        "name": "Ice",
+        "amount": "cubes"
+      }
+    ],
+    "method": [
+      "If each part is 1/2 oz then use about 2.5 cups of ice.",
+      "Blend it all together.",
+      "Drink it with a big straw if you have one."
+    ]
+  },
+  {
+    "id": "rum-runner",
+    "name": "Rum Runner",
+    "category": "rum",
+    "difficulty": "Medium",
+    "time": 10,
+    "glass": "Cocktail glass",
+    "description": "A rum cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "rum"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/vqws6t1504888857.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Malibu rum",
+        "amount": "1 1/2 oz"
+      },
+      {
+        "name": "Blackberry brandy",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Orange juice",
+        "amount": "3-4 oz"
+      },
+      {
+        "name": "Pineapple juice",
+        "amount": "3-4 oz"
+      },
+      {
+        "name": "Cranberry juice",
+        "amount": "3-4 oz"
+      }
+    ],
+    "method": [
+      "Mix all ingredients in glass & add ice."
+    ]
+  },
+  {
+    "id": "screwdriver",
+    "name": "Screwdriver",
+    "category": "vodka",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Highball glass",
+    "description": "A vodka cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "vodka",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/8xnyke1504352207.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "2 oz"
+      },
+      {
+        "name": "Orange juice",
+        "amount": "To taste"
+      }
+    ],
+    "method": [
+      "Mix in a highball glass with ice.",
+      "Garnish and serve."
+    ]
+  },
+  {
+    "id": "harvey-wallbanger",
+    "name": "Harvey Wallbanger",
+    "category": "vodka",
+    "difficulty": "Easy",
+    "time": 5,
+    "glass": "Collins glass",
+    "description": "A vodka cocktail with a distinctive character.",
+    "garnish": "As desired",
+    "tags": [
+      "vodka",
+      "classic"
+    ],
+    "image": "https://www.thecocktaildb.com/images/media/drink/7os4gs1606854357.jpg",
+    "imageSource": "TheCocktailDB",
+    "featured": false,
+    "popular": false,
+    "ingredients": [
+      {
+        "name": "Vodka",
+        "amount": "1 oz"
+      },
+      {
+        "name": "Galliano",
+        "amount": "1/2 oz"
+      },
+      {
+        "name": "Orange juice",
+        "amount": "4 oz"
+      }
+    ],
+    "method": [
+      "Stir the vodka and orange juice with ice in the glass, then float the Galliano on top.",
+      "Garnish and serve."
+    ]
+  }
 ]
